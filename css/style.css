@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 0, 43);
+    color: white;
+    padding: 17px;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1vh;
+    padding: 20px;
+}
+.gameContainer{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.box:hover{
+    background-color: rgba(232, 255, 255, 0.152);
+    transition:0.2s;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border:1px solid rgb(133, 255, 239);
+    cursor: pointer;
+}
+.boxText{
+    font-size: 10vw;
+    color: rgb(120, 246, 255);
+}
+.gameInfo{
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxText{
+    padding: 6px;
+}
+.info{
+    padding-bottom: 5px;
+}
+.btN{
+    padding: 8px 18px  ;
+    background-color: aqua  ;
+    border: none  ;
+    border-radius: 3px  ;
+    font-size: 17px  ;
+    color: white  ;
+}
+.btN:hover{
+    background-color: rgb(0, 55, 55)  ;
+    transition: 0.7s  ;
+}
+.br0{
+    border-right: 0;
+}
+.bt0{
+    border-top:0;
+}
+.bl0{
+    border-left:0;
+}
+.bb0{
+    border-bottom:0;
+}
